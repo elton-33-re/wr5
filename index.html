@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Cinta di Galaksi 🌌❤</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Kotak login -->
+    <div class="container" id="login-container">
+        <h1 class="gradient-text">🌟 Login ke Galaksi Cinta 🌟</h1>
+        <div class="login-form">
+            <input type="text" id="username" placeholder="Nama 🚀">
+            <input type="password" id="password" placeholder="Kata Sandi 🔒">
+            <button class="btn" onclick="checkLogin()">Masuk 💫</button>
+            <p class="error-message" id="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Halaman setelah login -->
+    <div class="container hidden" id="romantic-container">
+        <h1 class="gradient-text">✨ Selamat Datang di Galaksi Cinta, Regina! ✨</h1>
+        <p id="romantic-quote">💖 Aku mencintaimu lebih dari bintang di langit 💖</p>
+        <button class="btn" onclick="showLogin()">Keluar</button>
+    </div>
+
+    <!-- Love bergerak -->
+    <div id="love-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
